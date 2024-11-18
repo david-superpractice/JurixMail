@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6E4E3432CE9901100F69DAF /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = C6E4E3422CE9901100F69DAF /* SQLite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6E4E3212CE94D4D00F69DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6E4E3052CE94D4B00F69DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6E4E30C2CE94D4B00F69DAF;
+			remoteInfo = JurixMail;
+		};
+		C6E4E32B2CE94D4D00F69DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6E4E3052CE94D4B00F69DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6E4E30C2CE94D4B00F69DAF;
+			remoteInfo = JurixMail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6E4E30D2CE94D4B00F69DAF /* JurixMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JurixMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E4E3202CE94D4D00F69DAF /* JurixMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JurixMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E4E32A2CE94D4D00F69DAF /* JurixMailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JurixMailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C6E4E30F2CE94D4B00F69DAF /* JurixMail */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JurixMail;
+			sourceTree = "<group>";
+		};
+		C6E4E3232CE94D4D00F69DAF /* JurixMailTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JurixMailTests;
+			sourceTree = "<group>";
+		};
+		C6E4E32D2CE94D4D00F69DAF /* JurixMailUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JurixMailUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6E4E30A2CE94D4B00F69DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E4E3432CE9901100F69DAF /* SQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E4E31D2CE94D4D00F69DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E4E3272CE94D4D00F69DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6E4E3042CE94D4B00F69DAF = {
+			isa = PBXGroup;
+			children = (
+				C6E4E30F2CE94D4B00F69DAF /* JurixMail */,
+				C6E4E3232CE94D4D00F69DAF /* JurixMailTests */,
+				C6E4E32D2CE94D4D00F69DAF /* JurixMailUITests */,
+				C6E4E3412CE98FFF00F69DAF /* Frameworks */,
+				C6E4E30E2CE94D4B00F69DAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6E4E30E2CE94D4B00F69DAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6E4E30D2CE94D4B00F69DAF /* JurixMail.app */,
+				C6E4E3202CE94D4D00F69DAF /* JurixMailTests.xctest */,
+				C6E4E32A2CE94D4D00F69DAF /* JurixMailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6E4E3412CE98FFF00F69DAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6E4E30C2CE94D4B00F69DAF /* JurixMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6E4E3342CE94D4D00F69DAF /* Build configuration list for PBXNativeTarget "JurixMail" */;
+			buildPhases = (
+				C6E4E3092CE94D4B00F69DAF /* Sources */,
+				C6E4E30A2CE94D4B00F69DAF /* Frameworks */,
+				C6E4E30B2CE94D4B00F69DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C6E4E30F2CE94D4B00F69DAF /* JurixMail */,
+			);
+			name = JurixMail;
+			packageProductDependencies = (
+				C6E4E3422CE9901100F69DAF /* SQLite */,
+			);
+			productName = JurixMail;
+			productReference = C6E4E30D2CE94D4B00F69DAF /* JurixMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6E4E31F2CE94D4D00F69DAF /* JurixMailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6E4E3372CE94D4D00F69DAF /* Build configuration list for PBXNativeTarget "JurixMailTests" */;
+			buildPhases = (
+				C6E4E31C2CE94D4D00F69DAF /* Sources */,
+				C6E4E31D2CE94D4D00F69DAF /* Frameworks */,
+				C6E4E31E2CE94D4D00F69DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6E4E3222CE94D4D00F69DAF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C6E4E3232CE94D4D00F69DAF /* JurixMailTests */,
+			);
+			name = JurixMailTests;
+			packageProductDependencies = (
+			);
+			productName = JurixMailTests;
+			productReference = C6E4E3202CE94D4D00F69DAF /* JurixMailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6E4E3292CE94D4D00F69DAF /* JurixMailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6E4E33A2CE94D4D00F69DAF /* Build configuration list for PBXNativeTarget "JurixMailUITests" */;
+			buildPhases = (
+				C6E4E3262CE94D4D00F69DAF /* Sources */,
+				C6E4E3272CE94D4D00F69DAF /* Frameworks */,
+				C6E4E3282CE94D4D00F69DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6E4E32C2CE94D4D00F69DAF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C6E4E32D2CE94D4D00F69DAF /* JurixMailUITests */,
+			);
+			name = JurixMailUITests;
+			packageProductDependencies = (
+			);
+			productName = JurixMailUITests;
+			productReference = C6E4E32A2CE94D4D00F69DAF /* JurixMailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6E4E3052CE94D4B00F69DAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					C6E4E30C2CE94D4B00F69DAF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					C6E4E31F2CE94D4D00F69DAF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = C6E4E30C2CE94D4B00F69DAF;
+					};
+					C6E4E3292CE94D4D00F69DAF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = C6E4E30C2CE94D4B00F69DAF;
+					};
+				};
+			};
+			buildConfigurationList = C6E4E3082CE94D4B00F69DAF /* Build configuration list for PBXProject "JurixMail" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6E4E3042CE94D4B00F69DAF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C6E4E33D2CE989CD00F69DAF /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C6E4E30E2CE94D4B00F69DAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6E4E30C2CE94D4B00F69DAF /* JurixMail */,
+				C6E4E31F2CE94D4D00F69DAF /* JurixMailTests */,
+				C6E4E3292CE94D4D00F69DAF /* JurixMailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6E4E30B2CE94D4B00F69DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E4E31E2CE94D4D00F69DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E4E3282CE94D4D00F69DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6E4E3092CE94D4B00F69DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E4E31C2CE94D4D00F69DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E4E3262CE94D4D00F69DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6E4E3222CE94D4D00F69DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6E4E30C2CE94D4B00F69DAF /* JurixMail */;
+			targetProxy = C6E4E3212CE94D4D00F69DAF /* PBXContainerItemProxy */;
+		};
+		C6E4E32C2CE94D4D00F69DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6E4E30C2CE94D4B00F69DAF /* JurixMail */;
+			targetProxy = C6E4E32B2CE94D4D00F69DAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C6E4E3322CE94D4D00F69DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6E4E3332CE94D4D00F69DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C6E4E3352CE94D4D00F69DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JurixMail/JurixMail.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JurixMail/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = superpractice.JurixMail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C6E4E3362CE94D4D00F69DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JurixMail/JurixMail.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JurixMail/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = superpractice.JurixMail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C6E4E3382CE94D4D00F69DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = superpractice.JurixMailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JurixMail.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JurixMail";
+			};
+			name = Debug;
+		};
+		C6E4E3392CE94D4D00F69DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = superpractice.JurixMailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JurixMail.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JurixMail";
+			};
+			name = Release;
+		};
+		C6E4E33B2CE94D4D00F69DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = superpractice.JurixMailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JurixMail;
+			};
+			name = Debug;
+		};
+		C6E4E33C2CE94D4D00F69DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = superpractice.JurixMailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JurixMail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6E4E3082CE94D4B00F69DAF /* Build configuration list for PBXProject "JurixMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E4E3322CE94D4D00F69DAF /* Debug */,
+				C6E4E3332CE94D4D00F69DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6E4E3342CE94D4D00F69DAF /* Build configuration list for PBXNativeTarget "JurixMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E4E3352CE94D4D00F69DAF /* Debug */,
+				C6E4E3362CE94D4D00F69DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6E4E3372CE94D4D00F69DAF /* Build configuration list for PBXNativeTarget "JurixMailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E4E3382CE94D4D00F69DAF /* Debug */,
+				C6E4E3392CE94D4D00F69DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6E4E33A2CE94D4D00F69DAF /* Build configuration list for PBXNativeTarget "JurixMailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E4E33B2CE94D4D00F69DAF /* Debug */,
+				C6E4E33C2CE94D4D00F69DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C6E4E33D2CE989CD00F69DAF /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.15.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C6E4E3422CE9901100F69DAF /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6E4E33D2CE989CD00F69DAF /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C6E4E3052CE94D4B00F69DAF /* Project object */;
+}
